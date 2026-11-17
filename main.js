@@ -3,7 +3,7 @@
  * To use your own pictures, replace the files in /photos
  * (or point `image` at a jpg/png). The frame crops them to a portrait.
  */
-const HIS_NAME = "Baby";
+const HIS_NAME = "my Jaan";
 
 const pieces = [
   {
