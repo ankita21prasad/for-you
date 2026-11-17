@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#140e0c" />
+    <title>For you</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Outfit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+    </div>
+
+    <main id="app">
+      <section class="intro" id="intro">
+        <p class="eyebrow">happy birthday</p>
+        <h1 class="name" id="intro-name"></h1>
+        <p class="lede">I left this in pieces, so you would have to stay a minute.</p>
+        <button class="envelope" id="seal" type="button" aria-label="Open the letter">
+          <span class="envelope-pocket"></span>
+          <span class="envelope-sheet">for you</span>
+          <span class="envelope-flap"></span>
+          <span class="envelope-seal"></span>
+        </button>
+        <p class="hint">tap the seal</p>
+      </section>
+
+      <section class="board" id="board" hidden>
+        <header class="board-head">
+          <p class="eyebrow">for you</p>
+          <h2>Open them in any order.</h2>
+          <p class="count" id="count" aria-live="polite"></p>
+        </header>
+        <div class="grid" id="grid"></div>
+        <button class="last-letter" id="last-letter" type="button">
+          <span class="last-kicker">kept until the end</span>
+          <span class="last-title">a letter</span>
+          <span class="wax" aria-hidden="true"></span>
+        </button>
+      </section>
+    </main>
+
+    <div class="modal" id="modal" hidden>
+      <div class="modal-backdrop" id="modal-backdrop"></div>
+      <div
+        class="modal-card"
+        id="modal-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+        tabindex="-1"
+      ></div>
+    </div>
+
+    <section class="finale" id="finale" hidden>
+      <div class="embers" id="embers" aria-hidden="true"></div>
+      <p class="eyebrow">for you</p>
+      <h2 class="finale-title">Happy birthday</h2>
+      <p class="finale-name" id="finale-name"></p>
+      <p class="finale-line">I'm glad you were born.</p>
+      <button class="text-button" id="replay" type="button">read it again</button>
+    </section>
+
+    <noscript>
+      <p class="noscript">This birthday needs JavaScript, just for the opening and the popups.</p>
+    </noscript>
+    <script src="main.js"></script>
+  </body>
+</html>
