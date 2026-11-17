@@ -180,7 +180,7 @@ function onLastLetter() {
   <p>And if I get to be a small part of some of those lovely days, well, I think I'd be rather happy about that.</p>
   <p>For now, just know that somewhere, someone is very fond of you, is probably smiling while writing all of this, and is looking forward to making a few more memories with you.</p>
   <p>I'm really, really glad it's you.</p>
-  <p class="sign">Have the loveliest birthday, jaan. ❤️</p>
+  <p class="sign">Have the loveliest birthday, Babe. ❤️</p>
   <button class="stay" type="button" id="stay">stay here a second</button>
 </article>
     `,
