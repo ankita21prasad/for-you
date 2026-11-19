@@ -28,12 +28,25 @@ const pieces = [
     alt: "Two chairs pulled close together in a quiet room",
     caption: "I might sound a little selfish here, but if I could wish for one thing every now and then, it would be more moments of us sitting across from each other (or maybe a little more tangled up than that 🫠), talking about everything and absolutely nothing, laughing at things only we understand. This is my whole argument: you, close, with nowhere we need to be.",
   },
-  {
-    id: "heavy",
-    kind: "note",
-    label: "if it's heavy",
-    body: "I hope life is gentle with you. And on the days it isn't, I want the heavy to have somewhere to go. You can put it next to me 🤍. I'll make room for all of you, even the parts you don't quite know how to explain.",
-  },
+  
+{
+  id: "like",
+  kind: "note",
+  label: "things I notice",
+  body: `
+    <p>I like that you have a mind of your own and don't shy away from standing up for what you believe in. Honestly, I find that quite attractive. Remember how you kept shouting at people driving wrongly when we were on the scooty? 😂 Or how you handle office politics and aren't afraid to take a stand and say, "If this doesn't happen, I'm going to do this." I like that you don't just go along with things for the sake of it.</p>
+
+    <p>I like how you remember the little things I casually mention, sometimes things that even I end up forgetting. It's sweet knowing that you actually listen and that some of those seemingly insignificant things stay with you. I don't know if you realise it, but I notice that too. 🫣</p>
+
+    <p>I like how adaptable you are. Someone who can sit comfortably in a high-end restaurant and know how to carry himself, but also doesn't mind sitting by the roadside when the situation calls for it. I find that ability to navigate different social settings quite attractive. It says a lot about how grounded you are, irrespective of where life takes you or how much you achieve along the way. I hope you always retain that part of yourself.</p>
+
+    <p>I really like that humbleness in you. The way you say, "Sab upar wale ka diya hua hai," and the way you care about your family. There's something very endearing about someone who doesn't forget where they come from and stays grateful for what they have. Though, I wouldn't mind you extending a little more of that care towards me as well. Just saying. 🙈❤️</p>
+
+    <p>I like how you sometimes seem to read my emotions without me having to spell them out. Like that afternoon when we were roaming around and I was getting irritated because of the heat, and you casually mentioned that you already knew, even though I hadn't said anything. Honestly, I really like that. It makes things so much easier when I don't have to explain every little thing and you just get me. I think there's something really comforting about that.</p>
+
+    <p>I'm not entirely sure about this one yet, because I think I'm still discovering this side of you, but it's something that keeps me intrigued. I get the feeling that you have quite a bit of intensity, passion and depth in the way you can be in a relationship. And I think there's a lot more to you emotionally than what you've let me see so far. I'm curious to discover that side of you, slowly. A little bit of face-reading along the way, I can manage too. 😂❤️</p>
+  `
+},
   {
     id: "street",
     kind: "photo",
@@ -46,7 +59,7 @@ const pieces = [
     id: "looked-at",
     kind: "note",
     label: "23rd November",
-    body: "Happy birthday, jaan 🎂. I hope this year surprises you in the loveliest ways. I hope you get closer to everything you've been working towards, find reasons to laugh a little harder, and have countless moments that make you think, yes, life is good. I hope you get spoiled a little, smiled at a lot, and reminded often of just how lovely you are. (I can certainly contribute to that last bit.)❤️‍🔥",
+    body: "Happy birthday, jaan 🎂. I hope this year surprises you in the loveliest ways. I hope you get closer to everything you've been working towards, find reasons to laugh a little harder, and have countless moments that make you think, yes, life is good. I hope life is gentle with you. And on the days it isn't, I want the heavy to have somewhere to go. You can put it next to me 🤍. I'll make room for all of you, even the parts you don't quite know how to explain. I hope you get spoiled a little, smiled at a lot, and reminded often of just how lovely you are. (I can certainly contribute to that last bit.)❤️‍🔥",
   },
   {
     id: "evening",
@@ -144,7 +157,7 @@ function openPiece(piece, button) {
     `
       <button class="close" type="button" data-close aria-label="Close">×</button>
       <h3 id="modal-title">${piece.label}</h3>
-      <p class="note-body">${escapeHtml(piece.body)}</p>
+      <p class="note-body">${piece.body}</p>
     `,
     button
   );
@@ -180,7 +193,7 @@ function onLastLetter() {
   <p>And if I get to be a small part of some of those lovely days, well, I think I'd be rather happy about that.</p>
   <p>For now, just know that somewhere, someone is very fond of you, is probably smiling while writing all of this, and is looking forward to making a few more memories with you.</p>
   <p>I'm really, really glad it's you.</p>
-  <p class="sign">Have the loveliest birthday, Babe. ❤️</p>
+  <p class="sign">Have the loveliest birthday, my babyyy. ❤️</p>
   <button class="stay" type="button" id="stay">stay here a second</button>
 </article>
     `,
