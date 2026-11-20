@@ -44,7 +44,7 @@ const pieces = [
 
     <p>I like how you sometimes seem to read my emotions without me having to spell them out. Like that afternoon when we were roaming around and I was getting irritated because of the heat, and you casually mentioned that you already knew, even though I hadn't said anything. Honestly, I really like that. It makes things so much easier when I don't have to explain every little thing and you just get me. I think there's something really comforting about that.</p>
 
-    <p>I'm not entirely sure about this one yet, because I think I'm still discovering this side of you, but it's something that keeps me intrigued. I get the feeling that you have quite a bit of intensity, passion and depth in the way you can be in a relationship. And I think there's a lot more to you emotionally than what you've let me see so far. I'm curious to discover that side of you, slowly. A little bit of face-reading along the way, I can manage too. 😂❤️</p>
+    <p>I'm not entirely sure about this one yet, because I think I'm still discovering this side of you, but it's something that keeps me intrigued. I get the feeling that you have quite a bit of intensity, passion and depth in the way you can be in a relationship. And I think there's a lot more to you emotionally than what you've let me see so far. I'm curious to discover that side of you, slowly. A little bit of face-reading along the way, I can manage too. 😈</p>
   `
 },
   {
@@ -80,7 +80,7 @@ const pieces = [
     id: "unimpressive",
     kind: "note",
     label: "just so you know",
-    body: "You don't have to be anything other than yourself with me. Not particularly funny, not particularly impressive, not always having the right things to say. Just you. Raw, vulnerable, silly, whatever you feel like. I like all those versions, perhaps a little more than is reasonable. Being here is already the whole point, and I am foolishly happy about it. 🫶",
+    body: "You don't have to be anything other than yourself with me. Not particularly funny, not particularly impressive, not always having the right things to say. JUST YOU. Raw, vulnerable, silly, whatever you feel like. I like all those versions, perhaps a little more than is reasonable. Being here is already the whole point, and I am foolishly happy about it. 🫶",
   },
 ];
 
@@ -186,26 +186,23 @@ function onLastLetter() {
   showModal(
     `
       <button class="close" type="button" data-close aria-label="Close">×</button>
-      
-<article class="letter">
-  <h3 id="modal-title">Happy birthday❤️</h3>
 
 <article class="letter">
   <h3 id="modal-title">Happy birthday ❤️</h3>
 
   <p>And beyond all the usual birthday wishes, there are a few little things I genuinely hope life brings your way.</p>
 
-  <p>I hope you never become so accustomed to being yourself that you forget how lovely that person is. I hope you never feel the need to make yourself smaller, explain every little thing about yourself, or hide the parts of you that don't always fit neatly into words.</p>
+  <p>I hope you never become so accustomed to being yourself that you forget how lovely that person is. I hope you never feel the need to make yourself smaller, explain every little thing about yourself (except to me of course 😌), or hide the parts of you that don't always fit neatly into words.</p>
 
   <p>I hope you keep that curious mind of yours, your little observations, your way of looking at things, and that rather endearing habit of being you. I hope you always have something to look forward to, something to be excited about, something that makes your eyes light up when you talk about it. And I hope you never lose the little boyish silliness that makes you so much fun to know.</p>
 
   <p>I hope the world gives you reasons to be proud of the person you're becoming, but I also hope you remember to enjoy the person you already are. Some of the nicest parts of being alive are the things that don't make it onto a calendar or a checklist.</p>
 
-  <p>I hope this year surprises you in the loveliest ways. I hope you get closer to everything you've been working towards, find reasons to laugh a little harder, and have countless moments that make you think, yes, life is good. I hope you get spoiled a little, smiled at a lot, and reminded often of just how lovely you are. (I can certainly contribute to that last bit.) ❤️‍🔥</p>
+  <p>I hope this year surprises you in the loveliest ways. I hope you get closer to everything you've been working towards, find reasons to laugh a little harder, and have countless moments that make you think, yes, life is good. I hope you get spoiled a little, smiled at a lot, and reminded often of just how lovely you are. (I can certainly contribute to that last bit. ❤️‍🔥)</p>
 
   <p>I hope there are unexpected joys, beautiful surprises, a little adventure, plenty of laughter and people who make you feel lucky to be where you are.</p>
 
-  <p>And selfishly, I hope I get to know more versions of you. The ones I haven't met yet, the ones that come out when you're ridiculously happy, when you're being mischievous, when you're excited about something, and even the ones you don't show everyone. I think there's still so much to discover, and I quite like that thought. And I hope you get to know more versions of me too. The silly ones, the extra-affectionate ones, the occasionally dramatic ones… and maybe a few that might surprise you. 😁🤭</p>
+  <p>And selfishly, I hope I get to know more versions of you. The ones I haven't met yet, the ones that come out when you're ridiculously happy, when you're being mischievous, when you're excited about something, and even the ones you don't show everyone. I think there's still so much to discover, and I quite like that thought. Annnndd I hope you get to know more versions of me too. How could I leave this one out? 🤨 The silly ones, the extra-affectionate ones, the occasionally dramatic ones… and maybe a few that might surprise you. 😁🤭</p>
 
   <p>I don't know what all this next year has in store, but I hope it brings you closer to the life you quietly dream about. I hope there are unexpected joys, beautiful surprises, a little adventure, plenty of laughter and people who make you feel lucky to be where you are. </p>
 
