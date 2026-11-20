@@ -59,14 +59,14 @@ const pieces = [
     id: "looked-at",
     kind: "note",
     label: "23rd November",
-    body: body: `
+    body: `
       <p>Happy birthday, jaan 🎂.</p>
       <p>You know, sometimes I wonder if you realise how easily you find your way into my thoughts. Something happens during the day, and I find myself wanting to tell you about it. I come across something amusing and wonder what you'd have to say. Sometimes I even catch myself imagining your reaction to the most ordinary things. It's a rather sweet inconvenience, honestly. And I don't think I'm particularly interested in fixing it. 🙈</p>
       <p>I think that's what happens when someone starts becoming a part of your everyday life. You don't just want to share the funny little things with them, but the not-so-good ones too. And I hope you know that you don't always have to show up as the happy, sorted version of yourself with me. On the days when life isn't particularly gentle with you, I want the heavy to have somewhere to go. You can put it next to me. I'll make room for all of you, even the parts you don't quite know how to explain. 🤍</p>
       <p>And somewhere between all these little everyday moments, conversations and things we haven't experienced yet, I hope we get to make a few more memories together. If I get to be a small part of your days, in the ordinary ones as much as the special ones, I think I'd be rather happy about that.</p>
       <p>For now, just know that somewhere, someone is very fond of you, is probably smiling while writing all of this, and is looking forward to discovering what else there is to us.</p>
       <p>I'm really, really glad it's you. ❤️</p>
-    `,
+    `
   },
   {
     id: "evening",
