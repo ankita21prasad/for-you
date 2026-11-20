@@ -3,7 +3,7 @@
  * To use your own pictures, replace the files in /photos
  * (or point `image` at a jpg/png). The frame crops them to a portrait.
  */
-const HIS_NAME = "my Jaan";
+const HIS_NAME = "jaaaaaan";
 
 const pieces = [
   {
@@ -72,7 +72,7 @@ const pieces = [
   {
     id: "unimpressive",
     kind: "note",
-    label: "And lastly",
+    label: "just so you know",
     body: "You don't have to be anything other than yourself with me. Not particularly funny, not particularly impressive, not always having the right things to say. Just you. Raw, vulnerable, silly, whatever you feel like. I like all those versions, perhaps a little more than is reasonable. Being here is already the whole point, and I am foolishly happy about it. 🫶",
   },
 ];
@@ -181,14 +181,14 @@ function onLastLetter() {
       <button class="close" type="button" data-close aria-label="Close">×</button>
       
 <article class="letter">
-  <h3 id="modal-title">${escapeHtml(HIS_NAME)},</h3>
-  <p>Happy birthday. ❤️</p>
-  <p>And, there's something else I want you to know.</p>
+  <h3 id="modal-title">Happy birthday❤️</h3>
+  
+  <p>And beyond all the usual birthday wishes, there are a few little things I genuinely hope life brings your way.</p>
   <p>I hope you never become so accustomed to being yourself that you forget how lovely that person is. I hope you never feel the need to make yourself smaller, explain every little thing about yourself, or hide the parts of you that don't always fit neatly into words.</p>
   <p>I hope you keep that curious mind of yours, your little observations, your way of looking at things, and that rather endearing habit of being you. I hope you always have something to look forward to, something to be excited about, something that makes your eyes light up when you talk about it. And I hope you never lose the little boyish silliness that makes you so much fun to know.</p>
   <p>You know, sometimes I wonder if you realise how easily you find your way into my thoughts. Something happens during the day, and I find myself wanting to tell you about it. I come across something amusing and wonder what you'd have to say. Sometimes I even catch myself imagining your reaction to the most ordinary things. It's a rather sweet inconvenience, honestly. And I don't think I'm particularly interested in fixing it. 🙈</p>
   <p>I hope the world gives you reasons to be proud of the person you're becoming, but I also hope you remember to enjoy the person you already are. Some of the nicest parts of being alive are the things that don't make it onto a calendar or a checklist.</p>
-  <p>And selfishly, I hope I get to know more versions of you. The ones I haven't met yet, the ones that come out when you're ridiculously happy, when you're being mischievous, when you're excited about something, and even the ones you don't show everyone. I think there's still so much to discover, and I quite like that thought.</p>
+  <p>And selfishly, I hope I get to know more versions of you. The ones I haven't met yet, the ones that come out when you're ridiculously happy, when you're being mischievous, when you're excited about something, and even the ones you don't show everyone. I think there's still so much to discover, and I quite like that thought. And I hope you get to know more versions of me too. 😁🤭</p>
   <p>I don't know what all this next year has in store, but I hope it brings you closer to the life you quietly dream about. I hope there are unexpected joys, beautiful surprises, a little adventure, plenty of laughter and people who make you feel lucky to be where you are.</p>
   <p>And if I get to be a small part of some of those lovely days, well, I think I'd be rather happy about that.</p>
   <p>For now, just know that somewhere, someone is very fond of you, is probably smiling while writing all of this, and is looking forward to making a few more memories with you.</p>
